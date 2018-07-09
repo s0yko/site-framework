@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Template &middot; Bootstrap</title>
+    <title>Каркас сайта</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -21,3 +21,24 @@
   </head>
 
   <body>
+
+
+      <div id="wrap" class="container">
+        <div class="masthead">
+          <h3 class="muted"></h3>
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="container">
+                <ul class="nav">
+                  <li class="active"><a href="#">Главная</a></li>
+                  <li>
+                    <a href="#">Меню 1</a>
+                  </li>
+                  <li><a href="#">Меню 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- /.navbar -->
+        </div> 
+        <div id="push"></div> 
+    </div>
